@@ -1,25 +1,16 @@
 {
-  "name": "mold-visually",
-  "version": "0.0.1",
-  "description": "Will add an desc later! Sorry!",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ajbitus/mold-visually.git"
-  },
-  "keywords": [
-    "nodejs",
-    "javascript",
-    "express",
-    "puppeteer"
-  ],
-  "author": "Ajay Pradhan <ajaykpradhan61@gmail.com> (http://ajbitus.github.io/)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ajbitus/mold-visually/issues"
-  },
-  "homepage": "https://github.com/ajbitus/mold-visually#readme"
+ "name": "mold-visually",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "install-server": "cd backend && npm install",
+  "start-server": "cd backend && node app.js",
+  "install-client": "cd client && npm install",
+  "build-client": "cd client && npm run build",
+  "start-client": "cd client && npm run start"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC"
 }
